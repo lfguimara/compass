@@ -1,0 +1,31 @@
+.hero {
+    height: 50vh;
+    background: url(../Assets/hero_backgraund.png);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Opcional: centraliza o texto */
+}
+
+
+.hero h2 {
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero p{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
